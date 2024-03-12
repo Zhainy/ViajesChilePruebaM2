@@ -5,9 +5,12 @@
     font-family: "Montserrat", sans-serif;
     color: aliceblue;
 }
-
+html {
+    scroll-behavior: smooth;
+    }
 .logonavbar {
     width: 24px;
+    margin-right: 10px;
 }
 
 .menubar {
@@ -17,7 +20,7 @@
 }
 
 .menulinks {
-    margin-left: 40vw;
+    margin-left: 50vw;
 }
 
 main {
@@ -36,4 +39,18 @@ i {
 }
 .imgcard {
     height: 150px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.pfooter {
+    display: inline;
+}
+.iconsfooter {
+    display: flex;
+    gap: 15px;
 }
