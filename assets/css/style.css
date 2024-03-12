@@ -3,6 +3,7 @@
     padding: 0;
     border: 0;
     font-family: "Montserrat", sans-serif;
+    color: aliceblue;
 }
 
 .logonavbar {
@@ -15,10 +16,24 @@
     width: 100vw;
 }
 
-header {
-    position: relative;
-    max-height: 70vh;
-}
 .menulinks {
-   margin-left: 45vw;
+    margin-left: 40vw;
+}
+
+main {
+    background-color: rgb(31, 56, 56);
+}
+
+i {
+    font-size: 24px;
+    margin: 15px 0px;
+    
+}
+.cardbox {
+    padding: 0;
+    margin: 10px 7px;
+    border-color: yellow;
+}
+.imgcard {
+    height: 150px;
 }
