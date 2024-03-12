@@ -5,9 +5,11 @@
     font-family: "Montserrat", sans-serif;
     color: aliceblue;
 }
+
 html {
     scroll-behavior: smooth;
-    }
+}
+/* navbar */
 .logonavbar {
     width: 24px;
     margin-right: 10px;
@@ -26,20 +28,24 @@ html {
 main {
     background-color: rgb(31, 56, 56);
 }
-
+/* Iconos Fontawesome */
 i {
     font-size: 24px;
     margin: 15px 0px;
-    
+
 }
+/* Elementos card */
+
 .cardbox {
     padding: 0;
     margin: 10px 7px;
     border-color: yellow;
 }
+
 .imgcard {
     height: 150px;
 }
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -47,9 +53,11 @@ footer {
     white-space: nowrap;
     vertical-align: middle;
 }
+
 .pfooter {
     display: inline;
 }
+
 .iconsfooter {
     display: flex;
     gap: 15px;
